@@ -16,4 +16,4 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Application Server
 
-Run `node server` to run another [server](http://localhost:3002/) at port 3002. This server has `prerender-node` set up and acts as a application server, takes in static resources from `dist/` folder and servers to the client.
+Run `node server` to run another server at port [3002](http://localhost:3002/). This server has `prerender-node` set up, acts as a application server, takes in static resources from `dist/` folder and serves to the client.
