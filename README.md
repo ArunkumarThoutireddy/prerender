@@ -7,6 +7,7 @@ Inspired by [Setup SEO Friendly Angular Apps with Prerender.io](http://evanjmg.c
 ## Client Apps
 
 * Angular 1.x - [ng-1x-app](#ng-1x-app)
+* Angular 6.x - [ng-6x-app](#ng-6x-app)
 
 
 ## Usage
@@ -21,6 +22,20 @@ $ node server.js
 ```
 
 Navigate to [http://localhost:3001](http://localhost:3001) & the typical NG 1.x app would be rendered. And navigate to [http://localhost:3001/?_escaped_fragment_=](http://localhost:3001/?_escaped_fragment_=) to view the prerendered page.
+
+## ng-6x-app
+Launch
+```bash
+$ ng build
+```
+
+Build gets created at `dist` folder after ng build. This folder will be used as static resource for the next server we will start
+
+```bash
+$ node server.js
+```
+
+A new server fires up at port 3002. Navigate to [http://localhost:3002](http://localhost:3002) & the typical NG 6.x app would be rendered. And navigate to [http://localhost:3001/?_escaped_fragment_=](http://localhost:3001/?_escaped_fragment_=) to view the prerendered page.
 
 ## License
 Copyright (c) 2018 Arvind Ravulavaru
