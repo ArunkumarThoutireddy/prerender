@@ -20,7 +20,7 @@ Launch
 $ node server.js
 ```
 
-Navigate to [http://localhost:3001](http://localhost:3001) & the typical NG 1.x app would be rendered. And navigate to [http://localhost:3006/?_escaped_fragment_=](http://localhost:3006/?_escaped_fragment_=) to view the prerendered page.
+Navigate to [http://localhost:3001](http://localhost:3001) & the typical NG 1.x app would be rendered. And navigate to [http://localhost:3001/?_escaped_fragment_=](http://localhost:3001/?_escaped_fragment_=) to view the prerendered page.
 
 ## License
 Copyright (c) 2018 Arvind Ravulavaru
