@@ -1,0 +1,21 @@
+{
+  "name": "ng-app",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Arvind Ravulavaru <arvind.ravulavaru@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-ui-router": "^1.0.15"
+  }
+}
